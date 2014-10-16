@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="Look" >
+        
+        <EditTextPreference
+                android:title="Sound Exaggeration"
+                android:summary="The sesitivity of the drawing from the microphone, probably will need to be adjusted."
+                android:key="customexaggeration"/>
+        
+        <ListPreference
+            android:key="colorbase"
+            android:entries="@array/Colors"
+            android:summary="The regular color of the circles"
+            android:title="Base Color" />
+        
+        <ListPreference
+            android:key="coloremphasis"
+            android:entries="@array/Colors"
+            android:summary="The emphasis color of the circles"
+            android:title="Emphasis Color" />
+        
+        <ListPreference
+            android:key="lineThickness"
+            android:entries="@array/Colors"
+            android:summary="The thickness of the lines"
+            android:title="Line Thickness" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Performance" >
+        
+        
+        <ListPreference
+            android:key="performanceLevel"
+            android:entries="@array/Performance"
+            android:summary="Choose the performance settings for the background."
+            android:title="Performance Level" />
+        
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Styles" >
+        <ListPreference
+            android:key="Style"
+            android:entries="@array/Styles"
+            android:summary="Choose wether the background draws lines or circles."
+            android:title="Style" />
+ 
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Advanced" >
+        <CheckBoxPreference
+                android:title="Force GPU redering"
+                android:summary="Force the GPU to help run the background"
+                android:key="gpurender"/>
+        
+        <ListPreference
+            android:key="skipAmount"
+            android:entries="@array/SkipValues"
+            android:summary="The amount of lines that are drawn on the screen, lower number means higher performance costs."
+            android:title="Skip Amount" />
+        
+        <ListPreference
+            android:key="circleNumbers"
+            android:entries="@array/SkipValues"
+            android:summary="The amount of circles for the phone to draw, the higher the number, the greater the performance costs."
+            android:title="Number of Circles" />
+        
+        <ListPreference
+            android:key="bufferPortion"
+            android:entries="@array/SkipValues"
+            android:summary="The portion of the buffer that is used"
+            android:title="Buffer Portion" />
+        
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="Styles">
+
+        <item name="circles">Draws Dots</item>
+
+        <item name="lines">Draws Lines</item>
+
+    </string-array>
+    
+    <string-array name="Colors">
+
+        <item name="blue">Blue</item>
+
+        <item name="green">Green</item>
+        
+        <item name="red">Red</item>
+        
+        <item name="yellow">Yellow</item>
+        
+        <item name="purple">Purple</item>
+
+    </string-array>
+    
+    <string-array name="Performance">
+
+        <item name="highestPerformance">Highest Performance</item>
+
+        <item name="highPerformance">High Performance</item>
+        
+        <item name="meduimPerformance">Meduim Performance</item>
+        
+        <item name="lowPerformance">Low Performance</item>
+        
+        <item name="lowestPerformance">Lowest Performance</item>
+
+    </string-array>
+    
+    <string-array name="SkipValues">
+
+        <item name="1">1</item>
+
+        <item name="2">2</item>
+        
+        <item name="3">3</item>
+        
+        <item name="4">4</item>
+        
+        <item name="5">5</item>
+
+    </string-array>
+    
+    <string-array name="NumberCircle">
+
+        <item name="1">1</item>
+
+        <item name="2">2</item>
+        
+        <item name="3">3</item>
+        
+        <item name="4">4</item>
+        
+        <item name="5">5</item>
+        
+        <item name="6">6</item>
+        
+        <item name="7">7</item>
+        
+        <item name="8">8</item>
+         
+        <item name="9">9</item>
+        
+        <item name="10">10</item>
+
+    </string-array>
+    
+    
+    
+</resources>
